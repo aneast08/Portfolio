@@ -1,3 +1,3 @@
 # Portfolio
 
-Link to deployedwebsite: https://andrew-east-portfolio.netlify.app/
+Link to deployed website: https://andrew-east-portfolio.netlify.app/
