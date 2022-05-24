@@ -21,7 +21,7 @@ const About = () => {
       <h2 className="head-text">My <span> Goals </span></h2>
       
       <div className="app__profiles">
-        <p className='p-text'>I am a senior at the University of Colorado boulder majoring in Computer Science with a minor in Astronomy</p>
+        <p className='p-text'>I am a senior at the University of Colorado boulder majoring in Computer Science with a minor in Astronomy. I hope to apply my technical skills to the rocketry or climate industry in hopes to further human exploration and survival. </p>
         {/* {abouts.map((about, index) => (
           <motion.div
             whileInView={{opacity:1}}
