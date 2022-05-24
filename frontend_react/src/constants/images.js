@@ -29,6 +29,8 @@ import logo from '../assets/logo.png';
 
 import fav from '../assets/fav.png';
 
+import me from '../assets/me.png.jpeg'
+
 export default {
   email,
   mobile,
@@ -57,4 +59,5 @@ export default {
   circle,
   logo,
   fav,
+  me,
 };
