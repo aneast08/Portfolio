@@ -1,5 +1,7 @@
 import React, {useState, useEffect} from 'react';
-import {motion} from 'framer-motion';
+// import {motion} from 'framer-motion';
+import{images} from '../../constants';
+
 
 import { AppWrap, MotionWrap } from '../../wrapper';
 import './About.scss';
@@ -18,11 +20,15 @@ const About = () => {
 
   return (
     <>
+      <div className='app__profiles-img'>
+        <img src={images.rocket} alt="rocket" className='app-profiles-img-rocket'/>
+        <img src={images.earth} alt="earth" className='app-profiles-img-earth'/>
+      </div>
       <h2 className="head-text">My <span> Goals </span></h2>
       
       <div className="app__profiles">
-        <p className='p-text'>I am a senior at the University of Colorado boulder majoring in Computer Science with a minor in Astronomy. I hope to apply my technical skills to the rocketry or climate industry in hopes to further human exploration and survival. After a semester abroad I was fortunate to attend the space resources week in Luxembourg where I learned about opportunities in the space and climate industries. These opportunities confirmed my intrest in working in these areas.</p>
-        <a href="http://127.0.0.1:8887/andrewEastResume.pdf" className='app__profiles-btn app__flex p-text'>
+        <p className='p-text'>I am a senior at the University of Colorado boulder majoring in Computer Science with a minor in Astronomy. My plan is to apply my technical skills to the rocketry or climate industry to help further human exploration and better the wellbeing of future generations. After a semester abroad I was fortunate to attend the Space Resources conference in Luxembourg where I learned about opportunities in the space and climate industries. This conference confirmed my interest in working in these areas.</p>
+        <a href="https://andrew-east-resume.tiiny.site/" className='app__profiles-btn app__flex p-text'>
           <button type="button" className='app__flex p-text'>Download my full resume here!</button>
         </a>
         {/* {abouts.map((about, index) => (

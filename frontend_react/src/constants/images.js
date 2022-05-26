@@ -30,6 +30,8 @@ import logo from '../assets/logo.png';
 import fav from '../assets/fav.png';
 
 import me from '../assets/me.png.jpeg'
+import rocket from '../assets/rocket.png'
+import earth from '../assets/earth.png'
 
 export default {
   email,
@@ -60,4 +62,6 @@ export default {
   logo,
   fav,
   me,
+  rocket,
+  earth,
 };
