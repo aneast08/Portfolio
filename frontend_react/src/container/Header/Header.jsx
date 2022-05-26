@@ -28,7 +28,7 @@ const Header = () => {
         <div className="app__header-badge">
           <div className = "badge-cmp app__flex">
             <img src={images.fav} alt='initials'/>
-            <div style= {{marginLeft: 20}}>
+            <div style= {{marginLeft: 10, marginTop: 15}}>
               <p className="p-text">Welcome to,</p>
               <h1 className='head-text'>My portfolio</h1>
             </div>
