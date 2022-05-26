@@ -21,7 +21,10 @@ const About = () => {
       <h2 className="head-text">My <span> Goals </span></h2>
       
       <div className="app__profiles">
-        <p className='p-text'>I am a senior at the University of Colorado boulder majoring in Computer Science with a minor in Astronomy. I hope to apply my technical skills to the rocketry or climate industry in hopes to further human exploration and survival. </p>
+        <p className='p-text'>I am a senior at the University of Colorado boulder majoring in Computer Science with a minor in Astronomy. I hope to apply my technical skills to the rocketry or climate industry in hopes to further human exploration and survival. After a semester abroad I was fortunate to attend the space resources week in Luxembourg where I learned about opportunities in the space and climate industries. These opportunities confirmed my intrest in working in these areas.</p>
+        <a href="http://127.0.0.1:8887/andrewEastResume.pdf" className='app__profiles-btn app__flex p-text'>
+          <button type="button" className='app__flex p-text'>Download my full resume here!</button>
+        </a>
         {/* {abouts.map((about, index) => (
           <motion.div
             whileInView={{opacity:1}}
@@ -42,6 +45,6 @@ const About = () => {
 
 export default AppWrap(
   MotionWrap(About, 'app__about'),
-  'about',
+  'goals',
   "app__whitebg"
 );
