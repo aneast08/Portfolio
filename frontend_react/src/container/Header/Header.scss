@@ -78,11 +78,15 @@
 
     img{
         width: 50%;
-        height: 50%;
+        height: 60%;
 
-        @media screen and (max-width: 1400px) {
+        @media screen and (max-width: 1200px) {
             width: 30%;
-            height: 30%;
+            height: 40%;
+        }
+        @media screen and (max-width: 450px) {
+            width: 30%;
+            height: 40%;
         }
     }
 
@@ -187,7 +191,13 @@
         right: 1rem;
         @media screen and (max-width: 1200px) {
             bottom: 0;
-            right: 0;
+            right: 7rem;
+            width: 70%;
+        }
+        @media screen and (max-width: 450px) {
+            bottom: 0;
+            right: 3rem;
+            width: 70%;
         }
         @media screen and (min-width: 2000px) {
             bottom: 12rem;
