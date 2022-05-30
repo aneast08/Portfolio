@@ -38,9 +38,18 @@
 
         
     }
+    @media screen and (min-width: 2000px){
+        img {
+            margin: 0 19rem;
+            width: 135px;
+            height: 100px;
+            top: 20px;
+            right: 5px;
+        }
+    }
     @media screen and (max-width: 1200px){
         img {
-            margin: 0 11rem;
+            margin: 0 12rem;
             height: 50px;
             width: 67.5px;
             top: 20px;
