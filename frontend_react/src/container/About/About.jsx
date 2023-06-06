@@ -23,7 +23,7 @@ const About = () => {
       <h2 className="head-text">My <span> Goals </span></h2>
       
       <div className="app__profiles">
-        <p className='p-text'>I am a senior at the University of Colorado Boulder majoring in Computer Science with a minor in Astronomy. My plan is to apply my technical skills to the rocketry or climate industry to help further human exploration and better the wellbeing of future generations. After a semester abroad I was fortunate to attend the Space Resources conference in Luxembourg where I learned about opportunities in the space and climate industries. This conference confirmed my interest in working in these areas.</p>
+        <p className='p-text'>I am a full-time Technical Specialist at Apple where I was promoted in six months for leadership and customer skills. Recent Computer Science graduate with a track record of developing and implementing software applications, using Agile methodologies and cutting-edge technologies. Proven experience in web development using React, NodeJS, and SQL, demonstrated through designing and building a website for NexusEdge. I am hoping to leverage this experience within the field of web development and Artificial Intelligence.</p>
         <div className='app__profiles-img'>
           <img src={images.rocket} alt="rocket" className='app-profiles-img-rocket'/>
           <img src={images.earth} alt="earth" className='app-profiles-img-earth'/>
